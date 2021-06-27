@@ -1,0 +1,36 @@
+.container {
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  background: #0a283b;
+  color: white;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cover {
+  float: center;
+  background: beige;
+  width: 100vw;
+  height: 20vh;
+  text-align: center;
+  color: black;
+}
+.navbar {
+  background: #1e4963;
+  width: 100vw;
+  height: 3vh;
+}
+
+.navbarButton {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding: 2px;
+}
