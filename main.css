@@ -39,6 +39,8 @@
 .content {
   display: flexbox;
   background: #015170;
+  width: 80vw;
+  justify-content: center;
 }
 table, th, td {
   border: 1px solid;
