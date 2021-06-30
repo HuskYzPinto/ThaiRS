@@ -1,6 +1,6 @@
 .container {
   font-family: monospace;
-  display: flex;
+  display: flexbox;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100vw;
@@ -22,6 +22,7 @@
   text-align: center;
   color: black;
 }
+
 .navbar {
   background: #1e4963;
   width: 100vw;
@@ -33,4 +34,17 @@
   border-style: solid;
   border-width: 1px;
   padding: 2px;
+}
+
+.content {
+  display: flexbox;
+  background: #015170;
+}
+table, th, td {
+  border: 1px solid;
+  padding: 2px;
+}
+
+#comparison {
+  background: #0a283b;
 }
