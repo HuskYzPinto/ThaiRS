@@ -1,6 +1,6 @@
 .container {
   font-family: monospace;
-  display: flexbox;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100vw;
@@ -37,11 +37,22 @@
 }
 
 .content {
-  display: flexbox;
+  display: flex;
   background: #015170;
-  width: 80vw;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80vw;
+  padding: 20px;
+}
+
 table, th, td {
   border: 1px solid;
 }
@@ -50,7 +61,30 @@ table, th, td {
   background: #0a283b;
 }
 
+table#osrs_skills {
+  background: #0a283b;
+  width: 50vw;
+  text-align: center;
+}
+
+#osrs_skills tr td {
+  padding: 10px;
+}
+
+#osrs_skills th {
+  height: 5vh;
+  font-size: 13pt;
+}
+
+.osrs_skills_info {
+  width: 7%;
+}
+.osrs_skills_desc {
+  width: 50%
+}
+
 .skill_icon {
   width: 25px;
   height: 25px;
 }
+
