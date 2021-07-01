@@ -57,7 +57,7 @@ table, th, td {
   border: 1px solid;
 }
 
-#comparison {
+table#comparison {
   background: #0a283b;
 }
 
@@ -65,26 +65,30 @@ table#osrs_skills {
   background: #0a283b;
   width: 50vw;
   text-align: center;
+  margin: auto;
 }
 
 #osrs_skills tr td {
-  padding: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 #osrs_skills th {
   height: 5vh;
-  font-size: 13pt;
+  font-size: 11pt;
 }
 
 .osrs_skills_info {
-  width: 7%;
+  width: 5%;
 }
 .osrs_skills_desc {
   width: 50%
 }
 
 .skill_icon {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 
