@@ -61,6 +61,10 @@
   width: 80vw; 
 }
 
+.news {
+  border-style: solid;
+  padding: 5px;
+}
 table, th, td {
   border: 1px solid;
 }
