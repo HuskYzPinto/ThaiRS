@@ -44,14 +44,14 @@
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 0.8;
   transition: .5s ease;
   background-color: #0d1417;
 }
 
-.cover:hover .overlay {
-  opacity: 0.9;
-}
+/* .cover:hover .overlay {
+  opacity: 0.8;
+} */
 img#cover1 {
   border-radius: 5px;
   opacity: 80%;
