@@ -16,17 +16,51 @@
   flex-wrap: wrap;
 }
 .cover {
-  float: center;
-  background: beige;
+  display: flex;
+  position: relative;
+  flex-flow: row no-wrap;
   width: 100vw;
-  height: 20vh;
+  height: 35vh;
   text-align: center;
   color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.overlayText {
+  color: white;
+  font-size: 58pt;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: 'Comic Mono', 'Waree';
+}
+.overlay {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0d1417;
+}
+
+.cover:hover .overlay {
+  opacity: 0.9;
+}
+img#cover1 {
+  border-radius: 5px;
+  opacity: 80%;
+  width: 100%
 }
 
 .navbar {
   background: #004266;
-  width: 100vw;
+  width: 100%;
   height: 3vh;
 }
 
@@ -37,7 +71,6 @@
   padding: 2px;
 }
 
-
 .row {
   display: flex;
   flex-direction: row;
@@ -47,7 +80,6 @@
 .row#content {
   background: #015170;
   margin-top: 2vh;
-  
 }
 
 .column {
@@ -59,14 +91,16 @@
 .column#content {
   background: #015170;
   padding: 5px;
-  width: 80vw; 
+  width: 80vw;
 }
 
 .news {
   border-style: solid;
   padding: 5px;
 }
-table, th, td {
+table,
+th,
+td {
   border: 1px solid;
 }
 
@@ -99,11 +133,10 @@ table#osrs_skills {
   width: 5%;
 }
 .osrs_skills_desc {
-  width: 50%
+  width: 50%;
 }
 
 .skill_icon {
   width: 20px;
   height: 20px;
 }
-
