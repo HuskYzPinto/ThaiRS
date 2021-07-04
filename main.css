@@ -1,10 +1,27 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
 .container {
   font-family: monospace;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100vw;
-  background: #082f4f;
+  background: #031012;
   color: white;
   margin: 0px;
   justify-content: space-around;
@@ -44,7 +61,7 @@
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.75;
   transition: .5s ease;
   background-color: #0d1417;
 }
@@ -59,15 +76,19 @@ img#cover1 {
 }
 
 .navbar {
-  background: #004266;
+  background: #031012;
   width: 100%;
-  height: 3vh;
+  height: 4vh;
 }
 
 .navbarButton {
+  color: white;
+  font-family: "Comic Mono", "Waree";
+  background-color: #062024;
   border-color: black;
   border-style: solid;
   border-width: 1px;
+  border-radius: 5px;
   padding: 2px;
 }
 
@@ -78,8 +99,9 @@ img#cover1 {
 }
 
 .row#content {
-  background: #015170;
+  background: #093238;
   margin-top: 2vh;
+  border-radius: 5px;
 }
 
 .column {
@@ -89,9 +111,11 @@ img#cover1 {
 }
 
 .column#content {
-  background: #015170;
+  background: #093238;
   padding: 5px;
   width: 80vw;
+  border-radius: 5px;
+
 }
 
 .news {
