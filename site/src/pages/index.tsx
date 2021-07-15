@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import NavBar from "../components/NavBar"
+
 /* Chakra Imports */
 import { Box, Text } from "@chakra-ui/react"
 
@@ -11,7 +13,7 @@ const IndexPage = (props: Props) => {
   
   return (
     <Box>
-     <Text> Test </Text>
+     <NavBar/>
     </Box>
   )
 }

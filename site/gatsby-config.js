@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://rune.in.th",
     title: "Thai RuneScape Community",
+    description: "ชุมชนคนไทยใน RuneScape"
   },
   plugins: [
     "gatsby-transformer-remark",
