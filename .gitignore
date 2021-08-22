@@ -105,3 +105,6 @@ dist
 
 # VSCode Workspace
 *.code-workspace
+
+#linaria
+*.linaria-cache
