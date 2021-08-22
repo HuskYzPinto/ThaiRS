@@ -1,6 +1,5 @@
-import React, { Props } from "react";
+import React from "react";
 import { PageProps } from "gatsby";
-import { Box } from "@material-ui/core";
 
 
 import Layout from "../components/layout";
@@ -8,6 +7,7 @@ import Layout from "../components/layout";
 const RS3: React.FC<PageProps> = (props: PageProps) => {
   return (
     <Layout>
+      ยังไม่มีข้อมูลในขณะนี้
     </Layout>
   );
 };

@@ -36,7 +36,7 @@ const Overlay = styled.div`
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.85;
+  opacity: 0.7;
   background-color: #0d1417;
 `;
 const OverlayText = styled.div`
