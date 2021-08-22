@@ -1,12 +1,17 @@
 import React from "react";
 import { PageProps } from "gatsby";
 import { Box } from "@material-ui/core";
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/layout";
 
 const Membership: React.FC<PageProps> = (props: PageProps) => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title> แนะนำระบบสมาชิก </title>
+      </Helmet>
       <div className="row" id="content">
         <div className="column" id="content">
           <p>

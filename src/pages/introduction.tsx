@@ -2,6 +2,7 @@ import React from "react";
 import { PageProps } from "gatsby";
 import { Box } from "@material-ui/core";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/layout";
 
@@ -40,6 +41,10 @@ const EmbedContainer = styled.div`
 const Introduction: React.FC<PageProps> = (props: PageProps) => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title> แนะนำเกม RuneScape </title>
+      </Helmet>
       <h2>เล่นในไหนได้บ้าง?</h2>
       <h3>RuneScape</h3>
       <ul>

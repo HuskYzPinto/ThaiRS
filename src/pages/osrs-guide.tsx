@@ -1,6 +1,7 @@
 import React from "react";
 import { PageProps } from "gatsby";
 import { Box } from "@material-ui/core";
+import { Helmet } from "react-helmet";
 import styled from "styled-components";
 
 import Layout from "../components/layout";
@@ -53,6 +54,10 @@ const SkillIcon = styled.img`
 const OSRS: React.FC<PageProps> = (props: PageProps) => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title> แนะนำผู้เล่นใหม่ OSRS </title>
+      </Helmet>
       <h2>สกิล</h2>
       <p>
         {" "}

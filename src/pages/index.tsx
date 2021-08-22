@@ -1,6 +1,7 @@
 import React from "react";
 import { PageProps } from "gatsby";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/layout";
 
@@ -12,6 +13,10 @@ const NewsPost = styled.div`
 const Index: React.FC<PageProps> = (props: PageProps) => {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title> Thai RS - ศูนย์รวมผู้เล่นไทยใน RuneScape </title>
+      </Helmet>
       <h2>ข่าวสารล่าสุด</h2>
       <NewsPost>
         <h3>[OSRS] แพทช์วันที่ 30 มิถุนายน 2564</h3>
