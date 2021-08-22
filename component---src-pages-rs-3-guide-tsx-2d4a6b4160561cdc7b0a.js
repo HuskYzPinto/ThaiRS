@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkthai_rs=self.webpackChunkthai_rs||[]).push([[469],{620:function(e,t,n){n.r(t);var u=n(7294),r=n(4223);t.default=function(e){return u.createElement(r.Z,null,"ยังไม่มีข้อมูลในขณะนี้")}}}]);
-//# sourceMappingURL=component---src-pages-rs-3-guide-tsx-2d4a6b4160561cdc7b0a.js.map
