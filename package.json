@@ -15,6 +15,8 @@
     "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
     "@material-ui/core": "^5.0.0-beta.4",
     "@material-ui/icons": "^5.0.0-beta.4",
     "@material-ui/styled-engine": "npm:@material-ui/styled-engine-sc@next",
@@ -27,6 +29,7 @@
     "gatsby-plugin-styled-components": "^4.12.0",
     "gatsby-source-filesystem": "^3.12.0",
     "gatsby-transformer-remark": "^4.9.0",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
@@ -34,8 +37,5 @@
   },
   "resolutions": {
     "@material-ui/styled-engine": "npm:@material-ui/styled-engine-sc@next"
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
