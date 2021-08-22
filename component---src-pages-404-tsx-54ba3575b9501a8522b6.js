@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkthai_rs=self.webpackChunkthai_rs||[]).push([[218],{938:function(e,t,l){l.r(t);var n=l(7294),r=l(4870),u=l(5414);t.default=function(e){return n.createElement(r.Z,null," ",n.createElement(u.q,null,n.createElement("meta",{charSet:"utf-8"}),n.createElement("title",null," Error 404: Page Not Found "))," ","Hello, you exploded something there!"," ")}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-54ba3575b9501a8522b6.js.map
