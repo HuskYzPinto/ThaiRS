@@ -1,6 +1,5 @@
 import React from "react";
 import { PageProps } from "gatsby";
-import { Box } from "@material-ui/core";
 import styled from "styled-components";
 
 import Layout from "../components/layout";
