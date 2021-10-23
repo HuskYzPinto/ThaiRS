@@ -7,7 +7,7 @@ import Layout from "../components/layout";
 
 const Membership: React.FC<PageProps> = (props: PageProps) => {
   return (
-    <Layout>
+    <Layout text='ระบบสมาชิก'>
       <Helmet>
         <meta charSet="utf-8" />
         <title> แนะนำระบบสมาชิก </title>

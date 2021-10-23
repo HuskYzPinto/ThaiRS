@@ -1186,6 +1186,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/comic-mono@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/comic-mono/-/comic-mono-4.5.0.tgz#ce0889565037b85bf60b8754d9579ecf901309fb"
+  integrity sha512-21jmxTq7LB0Aac4zR9L4+TRCe4iZSwSMuc/iQH151LWaVLRy0CQJhqUnF/SoV8RkLyNybzHDg2ndOuJlII/AOQ==
+
 "@gatsbyjs/reach-router@^1.3.6":
   version "1.3.6"
   resolved "https://registry.npmjs.org/@gatsbyjs/reach-router/-/reach-router-1.3.6.tgz"

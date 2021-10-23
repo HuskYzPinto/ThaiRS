@@ -40,7 +40,7 @@ const EmbedContainer = styled.div`
 `;
 const Introduction: React.FC<PageProps> = (props: PageProps) => {
   return (
-    <Layout>
+    <Layout text='RuneScape คืออะไร?'>
       <Helmet>
         <meta charSet="utf-8" />
         <title> แนะนำเกม RuneScape </title>
