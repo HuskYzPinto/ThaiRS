@@ -53,7 +53,7 @@ const SkillIcon = styled.img`
 
 const OSRS: React.FC<PageProps> = (props: PageProps) => {
   return (
-    <Layout>
+    <Layout text='แนะนำ OldSchool RuneScape'>
       <Helmet>
         <meta charSet="utf-8" />
         <title> แนะนำผู้เล่นใหม่ OSRS </title>

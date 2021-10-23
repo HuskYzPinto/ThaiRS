@@ -8,6 +8,10 @@ import styled from "styled-components";
 import "../global.css";
 import "@fontsource/comic-mono";
 
+interface Props {
+  text?: string;
+}
+
 const Body = styled.div`
   display: flex;
   flex-direction: column;
@@ -69,12 +73,12 @@ const Page = styled.div`
   }
 `;
 
-export default function Layout({ children }) {
+export default function Layout({children, ...props}) {
   return (
     <ThemeProvider theme={theme}>
       <Page>
         <NavBar />
-        <Hero />
+        {props.text ? <Hero text={props.text} /> : <Hero />}
         <Body>{children}</Body>
         <Footer />
       </Page>

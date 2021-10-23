@@ -7,7 +7,7 @@ import Layout from "../components/layout";
 
 const RS3: React.FC<PageProps> = (props: PageProps) => {
   return (
-    <Layout>
+    <Layout text='แนะนำ RuneScape 3'>
       <Helmet>
         <meta charSet="utf-8"/>
         <title> แนะนำผู้เล่นใหม่ RS3 </title>

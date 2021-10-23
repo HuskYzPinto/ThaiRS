@@ -1,9 +1,9 @@
 import React from "react";
-
-import { Box } from "@material-ui/core";
 import styled from "styled-components";
 
-interface Props {}
+interface Props {
+  text?: string;
+}
 
 const Cover = styled.div`
   display: flex;
@@ -58,7 +58,7 @@ const Hero: React.FC<Props> = (props: Props) => {
         src="https://huskyzpinto.sfo2.digitaloceanspaces.com/Pics/thairs/image_2021-07-04_18-39-52.png"
       />
       <Overlay>
-        <OverlayText> Thai RuneScape Community </OverlayText>
+        <OverlayText> {props.text ? props.text : 'Thai RuneScape Community'}</OverlayText>
       </Overlay>
     </Cover>
   );
